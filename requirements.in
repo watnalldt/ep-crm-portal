@@ -1,0 +1,31 @@
+django
+django-admin-autocomplete-filter
+django-admin-rangefilter
+django-browser-reload
+django-environ
+django-debug-toolbar
+django-extensions
+django-import-export
+djangorestframework
+django-filter
+django-simple-history
+crispy-bootstrap5
+xhtml2pdf
+ipython
+psycopg2
+django-user-visit
+django-browser-reload
+# Redis
+django-redis
+redis
+hiredis
+whitenoise
+# Tests
+coverage
+pytest
+pytest-sugar
+pytest-django
+termcolor
+traitlets
+idna
+certifi

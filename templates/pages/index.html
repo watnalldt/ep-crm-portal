@@ -1,0 +1,132 @@
+{% extends '_partials/base.html' %}
+{% load static %}
+
+{% block content %}
+  <section>
+    <div class="row">
+      <img src="{% static 'img/hero.png' %}" class="img-fluid" alt="Energy Portfolio Hero Image">
+    </div>
+  </section>
+
+  <section class="our-services">
+    <!-- 3 columns -->
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mt-4">
+          <img src="{% static 'img/homepage-icon-saving-time.png' %}" width="100" height="60" alt="Time Saving Icon">
+          <h5 class="mt-3">Time Saving For Management Agents</h5>
+
+
+          <p><strong> Allowing you to concentrate on property management</strong>
+
+          </p>
+          <ul>
+            <li>Contract placement and renewals</li>
+            <li>Completion of VAT forms</li>
+            <li>Contract terminations with suppliers</li>
+            <li>Contract synchronisation to one common end date</li>
+            <li>Contract disputes</li>
+            <li>Dedicated points of contact with energy suppliers</li>
+            <li> Smart, AMR and Sub Metering solutions</li>
+            <li>Fraud investigation</li>
+            <li>Online platform – giving you information at your fingertips</li>
+            <li>Bill validation and tenant recharging</li>
+            <li>Flexible payment terms</li>
+          </ul>
+
+        </div>
+
+        <div class="col-md-4 mt-4">
+          <img src="{% static 'img/homepage-icon-reduced-energy-usage.png' %}" width="100" height="60" alt="Reduced Energy Usage Icon">
+          <h5 class="mt-3">Reducing Energy Costs</h5>
+          <p><strong>Giving you access to the best market rates</strong></p>
+          <ul>
+            <li> Competitive contract rates</li>
+            <li>Market leading price protection guarantee instead of an industry-leading price promise</li>
+            <li>Guaranteed acceptance on all contracts regardless of credit score</li>
+            <li>Unique approach for non-trading entities with poor credit scores</li>
+            <li>We remove your liability from contracts unlike other brokers that place in the managing agents name
+            </li>
+            <li>Utilising client buying power through alignment</li>
+            <li>An industry-leading price promise</li>
+            <li>Guaranteed ‘no roll over’ on out of contract rates</li>
+            <li>Comparative market quotes</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mt-4">
+          <img src="{% static 'img/homepage-icon-credibility.png' %}" width="100" height="60" alt="Industry Credibility Icon">
+          <h5 class="mt-3">Our Industry Credibility</h5>
+          <p><strong>Dedicated to the Propery Management Sector</strong></p>
+          <ul>
+            <li> A dedicated team that understand your issues — we have vast experience of the energy and property
+              sector</li>
+            <li>We assist over 80 Block Managing Agents in the UK — the majority of these are either ARMA members, or
+              RICS registered, or both</li>
+            <li>By having a niche in this single market, our services are uniquely designed and tailored to our
+              clients</li>
+            <li>The company’s growth in this sector has been largely due to ‘word of mouth’ recommendations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <!-- 3 columns -->
+    <div class="container">
+      <h4 class="text-center mt-3">Here’s what they’re saying about us…</h4>
+      <div class="row">
+        <div class="col-md">
+          <i class="fas fa-quote-left  quote"></i>
+          <p>The team at Energy Portfolio really understand our sector well. They deliver a great service whilst
+            taking the administration burden away from our Property Management team. Thank you.
+          </p>
+          <div class="info">
+            <div class="name"> David Poppleton</div>
+            <div class="job">Managing Director | Inspired Property Management</div>
+
+          </div>
+        </div>
+
+        <div class="col-md">
+          <i class="fas fa-quote-left  quote"></i>
+          <p>Energy Portfolio have provided efficient, pro-active, extremely effective and relevant advice with
+            savings of 40% on our utility bills plus a first class personal service. </p>
+          <div class="info">
+            <div class="name">Alec Guthrie </div>
+            <div class="job">The HML Group</div>
+
+          </div>
+
+
+        </div>
+
+        <div class="col-md">
+          <i class="fas fa-quote-left  quote"></i>
+          <p>Energy Portfolio have provided efficient, effective advice ensuring that our clients receive the best
+            service and price. We would happily recommend them.</p>
+          <div class="info">
+            <div class="name">Daniel Burkinshaw </div>
+            <div class="job">Owner | Burkinshaw Block Management</div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="mb-4 mt-4">
+    <div class="container">
+      <br>
+      <div class="row">
+        <h4 class="text-center mb-4">Some of Our Trusted Clients</h4>
+
+        <img src="{% static 'img/our_clients.png' %}" height="270" width="150" alt="List of major clients">
+      </div>
+    </div>
+  </section>
+  </main>
+
+{% endblock content %}
